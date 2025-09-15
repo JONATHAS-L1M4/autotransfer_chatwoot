@@ -2,7 +2,6 @@ services:
   app:
     build: .
     image: chatwoot-orchestrator:latest
-    container_name: chatwoot-orchestrator
     environment:
       CHATWOOT_TOKEN: ${CHATWOOT_TOKEN}
       CHATWOOT_ACCOUNT_ID: ${CHATWOOT_ACCOUNT_ID}
