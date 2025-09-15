@@ -1,0 +1,2 @@
+auto_assign_by_priority:
+  - urgent    # Só "urgent" dispara auto-atribuição ao agente
