@@ -1,5 +1,4 @@
 services:
-  app:
     environment:
       CHATWOOT_TOKEN: ${CHATWOOT_TOKEN}
       CHATWOOT_ACCOUNT_ID: ${CHATWOOT_ACCOUNT_ID}
