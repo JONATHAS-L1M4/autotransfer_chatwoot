@@ -4,4 +4,3 @@ services:
         CHATWOOT_ACCOUNT_ID: ${CHATWOOT_ACCOUNT_ID}
         CHATWOOT_DOMAIN: ${CHATWOOT_DOMAIN}
         CHATWOOT_VERIFY_TLS: true
-    restart: always
