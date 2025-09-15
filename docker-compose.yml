@@ -1,8 +1,7 @@
 services:
     environment:
-      CHATWOOT_TOKEN: ${CHATWOOT_TOKEN}
-      CHATWOOT_ACCOUNT_ID: ${CHATWOOT_ACCOUNT_ID}
-      CHATWOOT_DOMAIN: ${CHATWOOT_DOMAIN}
-      CHATWOOT_VERIFY_TLS: true
-    env_file: .env
+        CHATWOOT_TOKEN: ${CHATWOOT_TOKEN}
+        CHATWOOT_ACCOUNT_ID: ${CHATWOOT_ACCOUNT_ID}
+        CHATWOOT_DOMAIN: ${CHATWOOT_DOMAIN}
+        CHATWOOT_VERIFY_TLS: true
     restart: always
