@@ -1,6 +1,5 @@
 services:
   app:
-    build: .
     image: chatwoot-orchestrator:latest
     container_name: chatwoot-orchestrator
     environment:
