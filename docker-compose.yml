@@ -1,5 +1,5 @@
 services:
-  app:
+  transfer:
     build: .
     image: chatwoot-orchestrator:latest
     environment:
