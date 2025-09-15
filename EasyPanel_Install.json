@@ -1,0 +1,19 @@
+{
+  "services": [
+    {
+      "type": "compose",
+      "data": {
+        "projectName": "ebettr",
+        "serviceName": "chatwoot-autotransfer",
+        "source": {
+          "type": "git",
+          "repo": "https://github.com/JONATHAS-L1M4/autotransfer_chatwoot",
+          "ref": "main",
+          "rootPath": "/",
+          "composeFile": "docker-compose.yml"
+        },
+        "env": "CHATWOOT_TOKEN=***\r\nCHATWOOT_ACCOUNT_ID=***\r\nCHATWOOT_DOMAIN=***\r\nCHATWOOT_TIMEOUT=***\r\nCHATWOOT_VERIFY_TLS=***"
+      }
+    }
+    ]
+}
