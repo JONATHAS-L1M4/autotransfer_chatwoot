@@ -7,7 +7,7 @@
         "serviceName": "chatwoot-autotransfer",
         "source": {
           "type": "git",
-          "repo": "https://github.com/JONATHAS-L1M4/autotransfer_chatwoot",
+          "repo": "https://github.com/JONATHAS-L1M4/chatwoot_autotransfer",
           "ref": "main",
           "rootPath": "/",
           "composeFile": "docker-compose.yml"
